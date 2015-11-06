@@ -9,6 +9,7 @@ s.license      = { :type => "MIT", :file => "LICENSE" }
 s.author             = { "Eugene Mozharovsky" => "mozharovsky@live.com" }
 s.social_media_url   = "https://twitter.com/DottieYottie"
 s.platform     = :ios, "8.0"
+s.tvos.deployment_target = '9.0'
 s.ios.deployment_target = "8.0"
 s.source       = { :git => "https://github.com/Mozharovsky/CVCalendar.git", :tag => s.version }
 s.source_files  = "CVCalendar/*.swift"
